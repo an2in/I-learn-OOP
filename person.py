@@ -16,3 +16,8 @@ class Person:
     def check_body(self):
         if self.height < 150 and self.weight < 40: print("an uong them vao :v")
         else: print("tap gym di!")
+
+class SocialAnxiety(Person):
+    def is_society_fear_bro(self):
+        if self.is_tired == True: print("nah bro")
+        else: print("i guess yes")
