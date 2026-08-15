@@ -1,9 +1,13 @@
 class Person:
-    def __init__(self, name, height, weight, is_tired=False):
+    yeu_nuoc = True
+    khoe = 0
+    
+    def __init__(self, name, height, weight, is_tired):
         self.name = name
         self.height = height
         self.weight = weight
         self.is_tired = is_tired
+        Person.khoe += (not is_tired)*1
 
     def status(self):
         if self.is_tired: print("di ngu thoi...")
