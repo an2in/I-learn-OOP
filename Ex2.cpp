@@ -21,7 +21,7 @@ public:
   void deposit(double amount) {
     if (amount > 0) {
       storedCash += amount;
-      cout << "Okay, done bro!" << storedCash;
+      cout << "Okay, done bro! " << storedCash << " ";
     } else
       cout << "Actually, I can (or not) deduct money from your account but the "
               "problem statement dont allow me to do that:D";
